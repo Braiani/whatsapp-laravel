@@ -1,0 +1,21 @@
+{
+    "name": "brtechsistemas/whatsapp",
+    "description": "A package to provide access to WhatssApp API.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brtechsistemas\\Whatsapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BR tech Sistemas",
+            "email": "felipe@brtechsistemas.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
